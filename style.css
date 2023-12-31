@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(pic\ 1.webp);
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@100&display=swap');
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.col {
+    margin-top: 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    background-color: rgba(225, 225, 255, 0.9);
+    height: 50px;
+    width: 50%;
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
